@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Section01 from '../../public/section01.jpg'
+
 export function Section() {
   return(
     // <!-- https://gist.github.com/goodreds/3d044027175954984fb96c7407a955ab -->
@@ -7,7 +10,7 @@ export function Section() {
 
     {/* <!-- Image Column --> */}
     <div className="w-full h-64 lg:w-1/2 lg:h-auto">
-        <img className="h-full w-full object-cover" src="https://picsum.photos/id/1018/2000" alt="Winding mountain road"/>
+        <Image className="h-full w-full object-cover" src={Section01} alt="Winding mountain road"/>
     </div>
     {/* <!-- Close Image Column --> */}
 
