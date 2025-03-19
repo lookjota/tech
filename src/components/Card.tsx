@@ -23,7 +23,7 @@ export function Card() {
             <div className="inline-flex items-center mt-1">
               <span className="text-gray-600 rounded">
                     791
-                    tools
+                    tool's
                 </span>
             </div>
           </div>
